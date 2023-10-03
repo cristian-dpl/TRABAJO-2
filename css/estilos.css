@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #289688;
+}
+
+.titulo{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 30px;
+    color: #FCEA3E;
+    font-size: 20px;
+}
+
+.imagenes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagenes img{
+    height: 140px;
+    border: 8px solid #fff;
+    margin: 5px;
+}
